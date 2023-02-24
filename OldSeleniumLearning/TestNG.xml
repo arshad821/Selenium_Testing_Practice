@@ -1,0 +1,34 @@
+
+ <?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Test Suite" verbose="2" parallel="methods" thread-count="2">
+<listeners>
+<listener class-name = "testNG.Listeners"></listener>
+</listeners>
+<test name = "Test Cases">
+
+<!-- <parameter name="Name" value="Duck"></parameter> -->
+
+
+
+<!-- <groups>
+<run>
+<include name="oneplus"></include>
+<include name="oppo"></include>
+
+</run>
+</groups> -->
+<classes> 
+<!-- <class name="testNG.DependenciesManagement"></class>
+<class name="testNG.DriveAcar"></class>
+<class name="testNG.sampleTestCase"></class>
+<class name="testNG.SkipTestCase"></class>
+<class name="testNG.SuiteExample"></class> -->
+
+<!-- <class name="testNG.GroupingExample"></class>
+<class name="testNG.ParameterizationExample"></class> -->
+
+<class name ="testNG.ParallelTesting"></class>
+</classes>
+</test>
+</suite>
